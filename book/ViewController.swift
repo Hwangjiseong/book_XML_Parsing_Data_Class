@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, XMLParserDelegate, UITableViewDataSource {
+class ViewController: UIViewController, XMLParserDelegate, UITableViewDataSource, UITableViewDelegate {
     @IBOutlet weak var tableview: UITableView!
     
     // 데이터 클래스 객체 배열
@@ -24,6 +24,7 @@ class ViewController: UIViewController, XMLParserDelegate, UITableViewDataSource
         super.viewDidLoad()
         
         tableview.dataSource = self
+        tableview.delegate = self
         
         // Do any additional setup after loading the view, typically from a nib.
         // Fruit.xml 화일을 가져 오기
