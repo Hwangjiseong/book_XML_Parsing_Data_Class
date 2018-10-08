@@ -12,6 +12,8 @@
 		7C7467E52163384000F97081 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C7467E32163384000F97081 /* Main.storyboard */; };
 		7C7467E72163384200F97081 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C7467E62163384200F97081 /* Assets.xcassets */; };
 		7C7467EA2163384200F97081 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C7467E82163384200F97081 /* LaunchScreen.storyboard */; };
+		7C7467F2216338B600F97081 /* book.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7C7467F1216338B600F97081 /* book.xml */; };
+		7C7467F42163393F00F97081 /* BookData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7467F32163393F00F97081 /* BookData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		7C7467E62163384200F97081 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C7467E92163384200F97081 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C7467EB2163384200F97081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C7467F1216338B600F97081 /* book.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = book.xml; sourceTree = "<group>"; };
+		7C7467F32163393F00F97081 /* BookData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		7C7467DE2163384000F97081 /* book */ = {
 			isa = PBXGroup;
 			children = (
+				7C7467F32163393F00F97081 /* BookData.swift */,
+				7C7467F1216338B600F97081 /* book.xml */,
 				7C7467DF2163384000F97081 /* AppDelegate.swift */,
 				7C7467E12163384000F97081 /* ViewController.swift */,
 				7C7467E32163384000F97081 /* Main.storyboard */,
@@ -124,6 +130,7 @@
 			files = (
 				7C7467EA2163384200F97081 /* LaunchScreen.storyboard in Resources */,
 				7C7467E72163384200F97081 /* Assets.xcassets in Resources */,
+				7C7467F2216338B600F97081 /* book.xml in Resources */,
 				7C7467E52163384000F97081 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +144,7 @@
 			files = (
 				7C7467E22163384000F97081 /* ViewController.swift in Sources */,
 				7C7467E02163384000F97081 /* AppDelegate.swift in Sources */,
+				7C7467F42163393F00F97081 /* BookData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
